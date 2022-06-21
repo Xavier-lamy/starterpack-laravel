@@ -1,0 +1,7 @@
+section.test .test-title {
+  color: red;
+  text-decoration: underline;
+}
+section.test .test-paragraph {
+  color: blue;
+}
