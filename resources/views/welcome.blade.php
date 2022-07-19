@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link href="{{ mix('assets/app.css') }}" rel="stylesheet">
+        @vite('resources/scss/app.scss')
 
         <!-- Styles -->
         <style>
@@ -42,6 +42,6 @@
                 <p class="test-paragraph" id="text_1">Texte 1: Ce texte devrait être en vert et devrait être au dessus de Texte 2</p>
             </section>
         </div>
-        <script type="text/javascript" src="{{ mix('assets/app.js') }}" ></script>
+        @vite('resources/js/app.js')
     </body>
 </html>
